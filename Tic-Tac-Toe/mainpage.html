@@ -14,29 +14,30 @@
   <div class="main_section">
     <div class="container">
       <div class ="row justify-content-center">
-        <div class ="col-3">
+        <div class ="col-md-3">
           <div class="head_section">
             <h1 id="heading">TIC-TAC-TOE</h1>
-            <p class="header">PLAYER 1 HAS X</p>
-            <p class="header">PLAYER 2 HAS 0</p>
+            <p id="header"></p>
+            <p id="result"></p>
+            <p id="timer">Timer :- </p>
           </div>
           <div class="box ">
-            <input type="text" id="b1" onclick="tictac();" readonly>
-            <input type="text" id="b2" onclick="tictac();" readonly>
-            <input type="text" id="b3" onclick="tictac();" readonly>
-            <input type="text" id="b4" onclick="tictac();" readonly>
-            <input type="text" id="b5" onclick="tictac();" readonly>
-            <input type="text" id="b6" onclick="tictac();" readonly>
-            <input type="text" id="b7" onclick="tictac();" readonly>
-            <input type="text" id="b8" onclick="tictac();" readonly>
-            <input type="text" id="b9" onclick="tictac();" readonly>
+            <input type="text" id="b1" onclick="tictac(id);" readonly>
+            <input type="text" id="b2" onclick="tictac(id);" readonly>
+            <input type="text" id="b3" onclick="tictac(id);" readonly>
+            <input type="text" id="b4" onclick="tictac(id);" readonly>
+            <input type="text" id="b5" onclick="tictac(id);" readonly>
+            <input type="text" id="b6" onclick="tictac(id);" readonly>
+            <input type="text" id="b7" onclick="tictac(id);" readonly>
+            <input type="text" id="b8" onclick="tictac(id);" readonly>
+            <input type="text" id="b9" onclick="tictac(id);" readonly>
+          </div>
+          <div class="foot_section">
+            <button type="button" class="b1 " onclick="reset()">RESTART</button>
+            <button type="button" class="b1 "><a href="index.html">EXIT</a></button>
           </div>
         </div>
       </div>
-    </div>
-    <div class="foot_section">
-        <button type="button" class="b1 ">RESET</button>
-        <button type="button" class="b1 "><a href="index.html">EXIT</a></button>
     </div>
   </div>
 

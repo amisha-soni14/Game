@@ -29,11 +29,22 @@ body.backward::after {
   color: #fbf9f9;
   font-weight: bolder;
 }
-.header {
+#header {
   margin-top: 20px;
   color: #fbf9f9;
   font-weight: bolder;
-  font-size: larger;
+  font-size: 30px;
+}
+#result {
+  color: #fbf9f9;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+#timer {
+  margin-top: 20px;
+  color: #fbf9f9;
+  font-weight: bolder;
+  font-size: 30px;
 }
 #b1, #b2, #b3, #b4, #b5,#b6, #b7, #b8, #b9 {
   width: 80px;

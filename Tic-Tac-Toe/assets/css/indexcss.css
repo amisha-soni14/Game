@@ -2,6 +2,10 @@ body {
   background-image: url('../images/back.png');/*//rgb(60,40,110)*/
   background-size: cover;
   /*background-position: center;*/
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
 }
 .main_section {
   height: 100%;
